@@ -7,6 +7,7 @@ import json
 import hashlib
 
 from utils import logger, api, err, encryption
+from utils.make_acc import create_blank_acc
 
 
 # userLogin(auth) -> getToken -> accountLogin
@@ -16,6 +17,7 @@ from utils import logger, api, err, encryption
 def user_login():
     logger.info("Hit /user/login", request.environ.get('HTTP_X_FORWARDED_FOR'))
     try:
+        print(request.body.read())
         data = eval(request.body.read())
     except BaseException:
         return json.loads(err.badRequestFormat)
@@ -111,11 +113,14 @@ def account_login():
         uid = data['uid']
     except BaseException:
         return json.loads(err.badRequestFormat)
+    
+    print('token24: ', token24)
 
     user = api.getUserByToken24(token24)
 
     if user is None:
-        return json.loads('{"result":3}')
+        user = create_blank_acc(data)
+        # return json.loads('{"result":3}')
 
     resp = """
 {

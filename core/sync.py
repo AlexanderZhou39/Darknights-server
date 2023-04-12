@@ -35,7 +35,8 @@ def account_syncData():
 
     Ts = api.getTs()
     user = api.completeServerData(user, Ts)
-    medium = file.readFile('./template/syncData.json')
+    medium = file.readFile('./syncData.json')
+    # medium = file.readFile('./template/syncData.json')
     medium = api.loadUserData(user, medium)
     medium = api.updateAllTs(user, medium, Ts)
 

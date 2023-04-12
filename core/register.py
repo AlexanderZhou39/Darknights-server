@@ -9,7 +9,8 @@ import hashlib
 from utils import logger, encryption, file, err, api
 
 
-@route('/user/register', method='POST')
+# @route('/user/register', method='POST')
+@route('/user/create', method='POST')
 def user_register():
     """
     User register.

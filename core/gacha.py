@@ -15,11 +15,11 @@ true = 'true'
 null = 'null'
 
 # 常量部分
-oneAdvancedGachaCost = 600  # 合成玉消耗
-percentageSSSR = 2  # 六星概率
-percentageSSSRAdd = 2  # 保底概率增加
-percentageSSR = 8  # 五星概率
-percentageSR = 50  # 四星概率
+oneAdvancedGachaCost = 0  # 合成玉消耗
+percentageSSSR = 0  # 六星概率
+percentageSSSRAdd = 0  # 保底概率增加
+percentageSSR = 0  # 五星概率
+percentageSR = 0  # 四星概率
 chanceUp = [[], [], [], []]  # 特殊UP活动,分别对应3、4、5、6
 selfDefined = False  # 是否自定义抽卡,该项为True时不进行随机生成.
 selfDefinedList = []  # 自定义抽卡数据，填入干员ID，不知道的可访问/showDb查看。一定要填满十个！

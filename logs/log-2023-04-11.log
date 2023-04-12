@@ -1,0 +1,316 @@
+[2023-04-11 21:01:57][localhost][INFO] Connecting to database.
+[2023-04-11 21:15:01][localhost][INFO] Connecting to database.
+[2023-04-11 21:15:29][localhost][INFO] Connecting to database.
+[2023-04-11 21:16:24][localhost][INFO] Connecting to database.
+[2023-04-11 21:17:38][localhost][INFO] Connecting to database.
+[2023-04-11 21:18:40][localhost][INFO] Connecting to database.
+[2023-04-11 21:18:44][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:18:44][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:18:44][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:18:44][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:18:44][localhost][INFO] Connecting to database.
+[2023-04-11 21:18:44][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:18:44][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:18:44][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:18:44][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:28:25][None][INFO] Hit /account/login
+[2023-04-11 21:28:32][None][INFO] Hit /account/login
+[2023-04-11 21:32:38][localhost][INFO] Connecting to database.
+[2023-04-11 21:32:39][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:32:39][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:32:39][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:32:39][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:32:39][localhost][INFO] Connecting to database.
+[2023-04-11 21:32:39][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:32:39][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:32:39][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:32:39][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:32:46][None][INFO] Hit /account/login
+[2023-04-11 21:35:13][localhost][INFO] Connecting to database.
+[2023-04-11 21:35:13][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:35:13][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:35:13][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:35:13][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:36:24][None][INFO] (404, "Not found: '/app/getSettings'")
+[2023-04-11 21:36:24][None][INFO] (404, "Not found: '/app/getCode'")
+[2023-04-11 21:39:23][None][INFO] (404, "Not found: '/app/getSettings'")
+[2023-04-11 21:39:23][None][INFO] (404, "Not found: '/app/getCode'")
+[2023-04-11 21:40:42][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 21:40:46][None][INFO] Hit /user/login
+[2023-04-11 21:40:46][None][INFO] (500, 'Internal Server Error', TypeError('the JSON object must be str, bytes or bytearray, not dict'), 'Traceback (most recent call last):\n  File "/Users/alexz./Documents/GitHub/Darknights-server/core/auth.py", line 19, in user_login\n    data = eval(request.body.read())\n  File "<string>", line 1\n    deviceId=3B0D2555-4576-46DD-9E1D-D2112573EB55&uid=30995038&token=764a28477d1842079cf7321dd3f4e491&platform=ios\n             ^\nSyntaxError: invalid decimal literal\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 876, in _handle\n    return route.call(**args)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 1759, in wrapper\n    rv = callback(*a, **ka)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/core/auth.py", line 21, in user_login\n    return json.loads(err.badRequestFormat)\n  File "/Users/alexz./.pyenv/versions/3.10.6/lib/python3.10/json/__init__.py", line 339, in loads\n    raise TypeError(f\'the JSON object must be str, bytes or bytearray, \'\nTypeError: the JSON object must be str, bytes or bytearray, not dict\n')
+[2023-04-11 21:44:43][None][INFO] Hit /user/login
+[2023-04-11 21:44:43][None][INFO] (500, 'Internal Server Error', TypeError('the JSON object must be str, bytes or bytearray, not dict'), 'Traceback (most recent call last):\n  File "/Users/alexz./Documents/GitHub/Darknights-server/core/auth.py", line 19, in user_login\n    data = eval(request.body.read())\n  File "<string>", line 1\n    deviceId=3B0D2555-4576-46DD-9E1D-D2112573EB55&uid=30995038&token=764a28477d1842079cf7321dd3f4e491&platform=ios\n             ^\nSyntaxError: invalid decimal literal\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 876, in _handle\n    return route.call(**args)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 1759, in wrapper\n    rv = callback(*a, **ka)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/core/auth.py", line 21, in user_login\n    return json.loads(err.badRequestFormat)\n  File "/Users/alexz./.pyenv/versions/3.10.6/lib/python3.10/json/__init__.py", line 339, in loads\n    raise TypeError(f\'the JSON object must be str, bytes or bytearray, \'\nTypeError: the JSON object must be str, bytes or bytearray, not dict\n')
+[2023-04-11 21:44:52][None][INFO] Hit /user/login
+[2023-04-11 21:44:52][None][INFO] (500, 'Internal Server Error', TypeError('the JSON object must be str, bytes or bytearray, not dict'), 'Traceback (most recent call last):\n  File "/Users/alexz./Documents/GitHub/Darknights-server/core/auth.py", line 19, in user_login\n    data = eval(request.body.read())\n  File "<string>", line 1\n    deviceId=3B0D2555-4576-46DD-9E1D-D2112573EB55&uid=30995038&token=764a28477d1842079cf7321dd3f4e491&platform=ios\n             ^\nSyntaxError: invalid decimal literal\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 876, in _handle\n    return route.call(**args)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 1759, in wrapper\n    rv = callback(*a, **ka)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/core/auth.py", line 21, in user_login\n    return json.loads(err.badRequestFormat)\n  File "/Users/alexz./.pyenv/versions/3.10.6/lib/python3.10/json/__init__.py", line 339, in loads\n    raise TypeError(f\'the JSON object must be str, bytes or bytearray, \'\nTypeError: the JSON object must be str, bytes or bytearray, not dict\n')
+[2023-04-11 21:45:35][localhost][INFO] Connecting to database.
+[2023-04-11 21:45:36][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:45:36][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:45:36][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:45:36][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:45:42][None][INFO] Hit /user/login
+[2023-04-11 21:45:42][None][INFO] (500, 'Internal Server Error', TypeError('the JSON object must be str, bytes or bytearray, not dict'), 'Traceback (most recent call last):\n  File "/Users/alexz./Documents/GitHub/Darknights-server/core/auth.py", line 20, in user_login\n    data = eval(request.body.read())\n  File "<string>", line 1\n    deviceId=3B0D2555-4576-46DD-9E1D-D2112573EB55&uid=30995038&token=764a28477d1842079cf7321dd3f4e491&platform=ios\n             ^\nSyntaxError: invalid decimal literal\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 876, in _handle\n    return route.call(**args)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 1759, in wrapper\n    rv = callback(*a, **ka)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/core/auth.py", line 22, in user_login\n    return json.loads(err.badRequestFormat)\n  File "/Users/alexz./.pyenv/versions/3.10.6/lib/python3.10/json/__init__.py", line 339, in loads\n    raise TypeError(f\'the JSON object must be str, bytes or bytearray, \'\nTypeError: the JSON object must be str, bytes or bytearray, not dict\n')
+[2023-04-11 21:47:13][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 21:47:15][None][INFO] Hit /account/login
+[2023-04-11 21:47:20][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 21:47:24][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 21:47:25][None][INFO] Hit /account/login
+[2023-04-11 21:54:39][localhost][INFO] Connecting to database.
+[2023-04-11 21:54:39][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:54:39][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:54:39][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:54:39][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:54:39][localhost][INFO] Connecting to database.
+[2023-04-11 21:54:39][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:54:39][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:54:39][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:54:39][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:54:57][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 21:55:03][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 21:55:05][None][INFO] Hit /account/login
+[2023-04-11 21:55:05][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 21:55:05][None][INFO] (500, 'Internal Server Error', FileNotFoundError(2, 'No such file or directory'), 'Traceback (most recent call last):\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 876, in _handle\n    return route.call(**args)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 1759, in wrapper\n    rv = callback(*a, **ka)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/core/auth.py", line 122, in account_login\n    create_blank_acc(data)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/utils/make_acc.py", line 16, in create_blank_acc\n    initial_chars = file.readFile(\'../serverData/userDataInit/troop_chars.json\')\n  File "/Users/alexz./Documents/GitHub/Darknights-server/utils/file.py", line 13, in readFile\n    with open(fileName, \'r\', encoding=\'utf-8\') as f:\nFileNotFoundError: [Errno 2] No such file or directory: \'../serverData/userDataInit/troop_chars.json\'\n')
+[2023-04-11 21:55:39][localhost][INFO] Connecting to database.
+[2023-04-11 21:55:39][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:55:39][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:55:39][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:55:39][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:55:42][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 21:55:43][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 21:55:45][None][INFO] Hit /account/login
+[2023-04-11 21:55:45][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 21:55:45][None][INFO] (500, 'Internal Server Error', TypeError("'NoneType' object is not subscriptable"), 'Traceback (most recent call last):\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 876, in _handle\n    return route.call(**args)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 1759, in wrapper\n    rv = callback(*a, **ka)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/core/auth.py", line 137, in account_login\n    api.update(user, {\'secret\': secret})\n  File "/Users/alexz./Documents/GitHub/Darknights-server/utils/api.py", line 152, in update\n    uid = user[\'uid\']\nTypeError: \'NoneType\' object is not subscriptable\n')
+[2023-04-11 21:56:43][localhost][INFO] Connecting to database.
+[2023-04-11 21:56:43][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:56:43][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:56:43][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:56:43][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:57:08][localhost][INFO] Connecting to database.
+[2023-04-11 21:57:08][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:57:08][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:57:08][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:57:08][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:57:22][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 21:57:24][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 21:57:26][None][INFO] Hit /account/login
+[2023-04-11 21:57:26][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 21:57:26][None][INFO] (500, 'Internal Server Error', TypeError("'NoneType' object is not subscriptable"), 'Traceback (most recent call last):\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 876, in _handle\n    return route.call(**args)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 1759, in wrapper\n    rv = callback(*a, **ka)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/core/auth.py", line 137, in account_login\n    api.update(user, {\'secret\': secret})\n  File "/Users/alexz./Documents/GitHub/Darknights-server/utils/api.py", line 152, in update\n    uid = user[\'uid\']\nTypeError: \'NoneType\' object is not subscriptable\n')
+[2023-04-11 21:59:40][localhost][INFO] Connecting to database.
+[2023-04-11 21:59:40][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:59:40][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:59:40][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:59:41][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:59:41][localhost][INFO] Connecting to database.
+[2023-04-11 21:59:41][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 21:59:41][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 21:59:41][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 21:59:41][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 21:59:59][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 22:00:00][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 22:00:01][None][INFO] Hit /account/login
+[2023-04-11 22:00:01][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 22:00:02][None][INFO] (500, 'Internal Server Error', TypeError("'NoneType' object is not subscriptable"), 'Traceback (most recent call last):\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 876, in _handle\n    return route.call(**args)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/env/lib/python3.10/site-packages/bottle.py", line 1759, in wrapper\n    rv = callback(*a, **ka)\n  File "/Users/alexz./Documents/GitHub/Darknights-server/core/auth.py", line 137, in account_login\n    api.update(user, {\'secret\': secret})\n  File "/Users/alexz./Documents/GitHub/Darknights-server/utils/api.py", line 152, in update\n    uid = user[\'uid\']\nTypeError: \'NoneType\' object is not subscriptable\n')
+[2023-04-11 22:00:48][localhost][INFO] Connecting to database.
+[2023-04-11 22:00:48][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 22:00:48][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 22:00:48][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 22:00:48][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 22:00:54][localhost][INFO] Connecting to database.
+[2023-04-11 22:00:54][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 22:00:54][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 22:00:54][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 22:00:54][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 22:00:58][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 22:00:59][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 22:01:01][None][INFO] Hit /account/login
+[2023-04-11 22:01:01][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 22:01:01][None][INFO] Hit /account/syncData
+[2023-04-11 22:11:04][localhost][INFO] Connecting to database.
+[2023-04-11 22:11:04][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 22:11:04][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 22:11:04][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 22:11:04][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 22:11:04][localhost][INFO] Connecting to database.
+[2023-04-11 22:11:05][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 22:11:05][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 22:11:05][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 22:11:05][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 22:13:33][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 22:13:35][None][INFO] Hit /account/login
+[2023-04-11 22:13:35][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 22:13:35][None][INFO] Hit /account/syncData
+[2023-04-11 22:14:44][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 22:14:45][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 22:14:47][None][INFO] Hit /account/login
+[2023-04-11 22:14:47][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 22:14:47][None][INFO] Hit /account/syncData
+[2023-04-11 22:15:13][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 22:15:14][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 22:15:16][None][INFO] Hit /account/login
+[2023-04-11 22:15:16][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 22:17:20][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 22:17:21][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 22:17:23][None][INFO] Hit /account/login
+[2023-04-11 22:17:23][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 22:17:23][None][INFO] Hit /account/syncData
+[2023-04-11 22:27:07][localhost][INFO] Connecting to database.
+[2023-04-11 22:27:07][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 22:27:07][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 22:27:07][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 22:27:07][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 22:27:07][localhost][INFO] Connecting to database.
+[2023-04-11 22:27:07][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 22:27:07][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 22:27:07][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 22:27:07][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 22:27:23][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 22:27:23][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 22:27:24][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 22:27:26][None][INFO] Hit /account/login
+[2023-04-11 22:27:26][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 22:27:27][None][INFO] Hit /account/syncData
+[2023-04-11 22:27:28][None][INFO] Hit /pay/getUnconfirmedOrderIdList
+[2023-04-11 22:27:38][None][INFO] Hit /account/syncStatus
+[2023-04-11 22:28:49][None][INFO] Hit /account/syncStatus
+[2023-04-11 22:29:18][localhost][INFO] Connecting to database.
+[2023-04-11 22:29:18][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 22:29:18][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 22:29:18][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 22:29:18][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 22:29:32][None][INFO] Hit /building/sync
+[2023-04-11 22:29:32][None][INFO] Hit /gacha/syncNormalGacha
+[2023-04-11 22:29:49][None][INFO] Hit /gacha/advancedGacha
+[2023-04-11 22:30:27][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:30:34][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:30:41][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:30:46][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:30:53][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:30:59][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:31:05][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:31:10][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:34:46][None][INFO] Hit /crisis/getInfo
+[2023-04-11 22:34:53][None][INFO] Hit /crisis/getInfo
+[2023-04-11 22:35:14][None][INFO] Hit /story/finishStory
+[2023-04-11 22:35:23][None][INFO] Hit /story/finishStory
+[2023-04-11 22:35:36][None][INFO] Hit /story/finishStory
+[2023-04-11 22:35:46][None][INFO] Hit /story/finishStory
+[2023-04-11 22:35:57][None][INFO] Hit /story/finishStory
+[2023-04-11 22:35:59][None][INFO] Hit /quest/squadFormation
+[2023-04-11 22:36:00][None][INFO] Hit /quest/battleStart
+[2023-04-11 22:37:45][None][INFO] Hit /quest/battleFinish
+[2023-04-11 22:37:48][None][INFO] Hit /story/finishStory
+[2023-04-11 22:37:54][None][INFO] Hit /crisis/getInfo
+[2023-04-11 22:40:34][None][INFO] Hit /account/syncStatus
+[2023-04-11 22:41:30][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 22:41:31][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 22:41:32][None][INFO] Hit /account/login
+[2023-04-11 22:41:32][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 22:41:33][None][INFO] Hit /account/syncData
+[2023-04-11 22:41:33][None][INFO] Hit /pay/getUnconfirmedOrderIdList
+[2023-04-11 22:41:42][None][INFO] Hit /account/syncStatus
+[2023-04-11 22:41:43][None][INFO] Hit /building/sync
+[2023-04-11 22:41:44][None][INFO] Hit /gacha/syncNormalGacha
+[2023-04-11 22:41:46][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:41:57][None][INFO] Hit /gacha/syncNormalGacha
+[2023-04-11 22:42:00][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:42:06][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:42:11][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:42:18][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:42:24][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:42:29][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:42:35][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:42:41][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:42:46][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:42:53][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:43:20][None][INFO] Hit /crisis/getInfo
+[2023-04-11 22:43:29][None][INFO] Hit /crisis/getInfo
+[2023-04-11 22:43:50][None][INFO] Hit /story/finishStory
+[2023-04-11 22:43:58][None][INFO] Hit /story/finishStory
+[2023-04-11 22:44:07][None][INFO] Hit /story/finishStory
+[2023-04-11 22:44:13][None][INFO] Hit /story/finishStory
+[2023-04-11 22:44:27][None][INFO] Hit /story/finishStory
+[2023-04-11 22:44:49][None][INFO] Hit /quest/squadFormation
+[2023-04-11 22:44:49][None][INFO] Hit /quest/battleStart
+[2023-04-11 22:46:18][None][INFO] Hit /quest/battleFinish
+[2023-04-11 22:46:19][None][INFO] Hit /quest/saveBattleReplay
+[2023-04-11 22:46:24][None][INFO] Hit /crisis/getInfo
+[2023-04-11 22:46:27][None][INFO] Hit /account/syncStatus
+[2023-04-11 22:46:37][None][INFO] Hit /account/syncStatus
+[2023-04-11 22:47:01][localhost][INFO] Connecting to database.
+[2023-04-11 22:47:01][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 22:47:01][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 22:47:01][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 22:47:01][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 22:47:16][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 22:47:17][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 22:47:20][None][INFO] Hit /account/login
+[2023-04-11 22:47:20][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 22:47:21][None][INFO] Hit /account/syncData
+[2023-04-11 22:47:22][None][INFO] Hit /pay/getUnconfirmedOrderIdList
+[2023-04-11 22:47:30][None][INFO] Hit /account/syncStatus
+[2023-04-11 22:47:33][None][INFO] Hit /building/sync
+[2023-04-11 22:47:33][None][INFO] Hit /gacha/syncNormalGacha
+[2023-04-11 22:47:36][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:47:42][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:47:48][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:47:53][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:49:28][None][INFO] Hit /gacha/syncNormalGacha
+[2023-04-11 22:49:30][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:49:36][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:49:41][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:49:47][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:49:53][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:49:55][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:50:00][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:56:12][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 22:56:12][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 22:56:13][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 22:56:15][None][INFO] Hit /account/login
+[2023-04-11 22:56:15][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 22:56:15][None][INFO] Hit /account/syncData
+[2023-04-11 22:56:17][None][INFO] Hit /pay/getUnconfirmedOrderIdList
+[2023-04-11 22:56:25][None][INFO] Hit /account/syncStatus
+[2023-04-11 22:56:26][None][INFO] Hit /building/sync
+[2023-04-11 22:56:26][None][INFO] Hit /gacha/syncNormalGacha
+[2023-04-11 22:56:38][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:56:44][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:56:47][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:56:50][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:56:56][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:57:02][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:57:07][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:57:13][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:59:03][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:59:09][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:59:25][localhost][INFO] Connecting to database.
+[2023-04-11 22:59:25][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 22:59:25][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 22:59:25][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 22:59:25][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 22:59:27][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:59:30][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 22:59:36][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 23:18:30][None][INFO] (404, "Not found: '/user/agreement'")
+[2023-04-11 23:18:30][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 23:18:31][None][INFO] (404, "Not found: '/user/push_token_submit'")
+[2023-04-11 23:18:33][None][INFO] Hit /account/login
+[2023-04-11 23:18:33][localhost][INFO] Read Initial User Data From Files
+[2023-04-11 23:18:33][None][INFO] Hit /account/syncData
+[2023-04-11 23:18:35][None][INFO] Hit /pay/getUnconfirmedOrderIdList
+[2023-04-11 23:18:45][None][INFO] Hit /account/syncStatus
+[2023-04-11 23:18:48][None][INFO] Hit /building/sync
+[2023-04-11 23:18:48][None][INFO] Hit /gacha/syncNormalGacha
+[2023-04-11 23:19:16][localhost][INFO] Connecting to database.
+[2023-04-11 23:19:17][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 23:19:17][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 23:19:17][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 23:19:17][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 23:19:19][None][INFO] Hit /gacha/syncNormalGacha
+[2023-04-11 23:19:34][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 23:20:23][localhost][INFO] Connecting to database.
+[2023-04-11 23:20:23][localhost][INFO] 213 Gacha-able Operators Loaded.
+[2023-04-11 23:20:23][localhost][INFO] CheckIn Data Loaded.
+[2023-04-11 23:20:23][localhost][INFO] Constant Gamedata Loaded.
+[2023-04-11 23:20:23][localhost][INFO] 146 CharSkins Loaded.
+[2023-04-11 23:20:26][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 23:20:37][None][INFO] Hit /gacha/tenAdvancedGacha
+[2023-04-11 23:20:45][None][INFO] Hit /gacha/tenAdvancedGacha
